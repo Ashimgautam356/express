@@ -12,7 +12,7 @@ app.use(express.static('./public'))
 app.all('*',(req,res)=>{
     res.status(404).send('resouce not found')
 })
-app.listen(5000,()=>{
+app.listen(5000,()=>{ 
     console.log("app is listining")
 })
  
